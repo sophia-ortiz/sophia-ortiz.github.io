@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label>First name:</label><br>
+  <input><br>
+  <label>Last name:</label><br>
+  <input><br><br>
+
+  <label for="run">Years of running experience:</label>
+  <br>
+<select id="run" name="run" size="4" multiple>
+  <option value="years">0-3 years</option>
+  <option value="run">4-6 years</option>
+  <option value="run">7-8 years</option>
+  <option value="run">9+ years</option>
+</select>
+  <br><br>
+  
+  <textarea name="message" rows="10" cols="30">
+Leave a message here!
+</textarea>  
+  <br><br> 
+  
+<p>Please input a number between 1 and 10:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>  
+  
+<input type="submit" value="Submit">  
+  
+</form> 
+</body>
+</html>
