@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 12px;
+  text-align: center;
+  background: #598392;
+  color: white;
+  font-size: 39px;
+  font-family: cursive
+}
+  
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse
+   }  
+  
+</style>
+</head>
+  
+<body>
+
+<div class="header">
+  <h1>Advice & Tips</h1>
+</div>
+   
+  
+</body>
+  
+<footer>
+   <hr>
+  <table style="width:100%">
+    <tr style="height:25px">
+     
+        <td style="background-color:#01161E">
+          <td style="background-color:#124559">
+      <td style="background-color:#598392">
+      <td style="background-color:#AEC3B0">
+      <td style="background-color:#EFF6E0">
+    </tr>
+    
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+   <button id="toggleButton">Hide Table</button>
+   <p id="demo"></p>
+</footer> 
+</html>
