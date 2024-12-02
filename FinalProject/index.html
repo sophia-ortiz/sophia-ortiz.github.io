@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: arial;
+  margin: 0;
+}
 
+/* Header/Logo Title */
+.header {
+  padding: 12px;
+  text-align: center;
+  background: #598392;
+  color: white;
+  font-size: 39px;
+  font-family: cursive
+}
+
+/* Page Content */
+.content {padding:20px;}
+  
+.myDiv {    
+  padding:90px;
+  text-align: center;
+  color: #EFF6E0;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: right;
+  background-image: url('https://media.istockphoto.com/id/532623723/vector/jogger-background.jpg?s=612x612&w=0&k=20&c=7bConYTzMSLxM9jrYHwxFVL1q0H2HS5qLUaLiB5M1xE=');
+  background-size: cover;
+  background-repreat: no-repeat
+}
+  
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse
+   }
+  
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+   
+h4 {
+  text-align: left;
+} 
+  
+  
+.Div1 {
+  background-color: #EFF6E0;    
+  text-align: left;
+  color: black;
+}   
+  
+</style>
+</head>
+  
+<body>
+
+<div class="header">
+  <h1>Running Through Life</h1>
+</div>
+  
+<div class="myDiv">
+  <h2>STAY POSITIVE, <br> KEEP PUSHING FORWARD, <br> AND ENJOY THE MOMENT</h2>
+</div>  
+  <br>
+  
+<nav>
+  <center>
+  <div class="topnav">
+  <a class="active" href="#">About</a>&nbsp
+  <a href="#">Upcoming Events</a>&nbsp
+  <a href="#">Advice/Tips</a>&nbsp
+  <a href="#">Contact</a>
+</div> 
+  <br>
+    
+ <h3>
+   <p><b>Personal Running Stories</b></p>
+ </h3>
+   
+  <tr>
+    <td>story 1</td>
+    <td>story 2</td>
+    <td>story 3</td>
+  </tr>
+    
+    <p><em>view more stories</em></p>  
+    <br>
+    
+ <h4>
+   <p><u>Latest Race Reviews</u></p>
+ </h4>
+    
+ <div class="Div1">
+   <p>Chicago Marathon <br> 4.8/5 stars <br> Review by: Alex<br>"I loved running through different neighborhoods and how the crowd cheers on all the runners"</p>
+   <p>New York Marathon <br> 5/5 stars <br> Review by: Ramiro<br>"It was an unforgettable experience. It was challenging but so much fun!"</p>
+   <p>Greensboro Half Marathon <br> 4.9/5 <br> Review by: Abbi<br>"Some parts were very hilly however, I loved being able to complete my first half marathon with my best friends"</p>
+ </div>   
+
+   
+ </body>
+  
+ <footer>
+   <hr>
+  <table style="width:100%">
+    <tr style="height:25px">
+     
+        <td style="background-color:#01161E">
+          <td style="background-color:#124559">
+      <td style="background-color:#598392">
+      <td style="background-color:#AEC3B0">
+      <td style="background-color:#EFF6E0">
+    </tr>
+    
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+   <button id="toggleButton">Hide Table</button>
+   <p id="demo"></p>
+</footer> 
+</html>
