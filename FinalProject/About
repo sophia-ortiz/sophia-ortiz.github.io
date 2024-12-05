@@ -27,6 +27,13 @@ body {
     border-collapse: collapse
    }  
   
+ .Div1 {
+  background-color: #EFF6E0;    
+  text-align: left;
+  color: black;
+}    
+  
+  
 </style>
 </head>
   
@@ -35,9 +42,12 @@ body {
 <div class="header">
   <h1>About</h1>
 </div>
- 
-<p> Running Through Life is a page for runners to tell their personal stories and experienc 
   
+<img src="https://postimg.cc/sQZmKm5p" alt=MyPhoto >
+  
+<div class="Div1">  
+<p> Running Through Life is a page for runners to tell their personal stories and experiences. My vision for this website was to create a safe place for runners to be able to express themselves, be vulnerable, and showcase their amazing abilities to the world. <br><br> I recently ran my first half marathon with a group of friends. I trained for months, pushing my body to limits I did not know I was capable of reaching. I always thought that I could never be a runner. However, I soon discovered with discipline and a positive mindset, anything is possible. <br><br> I am not going to lie, it was very difficult at first. There were days that I really did not feel like running but I had to force myself to do it. Consistency is key when training for a half marathon. I remember my first time running 2 miles I thought it was the hardest thing ever. I doubted myself a little. But, because I was consistent with my training, the half marathon was smooth sailing. It went so well and I am extrememly proud of myself. </p>
+  </div>
   
 </body>
   
