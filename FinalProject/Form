@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>HTML Forms</h2>
+<h2>Contact</h2>
 
 <form action="/action_page.php">
   <label>First name:</label><br>
